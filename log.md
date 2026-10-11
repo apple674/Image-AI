@@ -3,7 +3,8 @@
 ### Table of Content/目录:
 [2026/09/11](#20260911)<br>
 [2026/09/12](#20260912)<br>
-[2026/09/20](#20260920)
+[2026/09/20](#20260920)<br>
+[2026/10/11](#20261011)
 ### Format/格式:
 Special Note/注: Need to add the date to the table of content/需要将日期添加到目录
 Table of Content/目录:
@@ -65,4 +66,10 @@ The beginning of the 21th century<br>
     ```
 2. 对项目**运行方式**进行修改\(此处代码省略\):<br>
    项目原先使用 `argument` 进行运行\(比如 `python main.py train`\)，现在改为使用 `input()` 进行更加便捷的运行。
-   
+###### 2026/10/11
+从10月初开始进行大改。<br>
+代码修改尚未全部完成。<br>
+**改动方向**：<br>
+    1. 设置了 `positive / negative` 双面训练<br>
+    2. 使用 `YOLO (ultralytics)` 作为算法核心<br>
+    3. 增加训练可视化界面
